@@ -1,0 +1,34 @@
+# Virtual environment Python
+venv/
+.venv/
+env/
+
+# Cache dan file hasil kompilasi Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database SQLite lokal
+*.sqlite
+*.sqlite3
+
+# Metadata packaging
+*.egg-info/
+build/
+dist/
+
+# Cache testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Folder pengaturan editor
+.vscode/
+.idea/
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+
+# File log
+*.log

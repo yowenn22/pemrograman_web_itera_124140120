@@ -1,0 +1,6 @@
+include README.md
+include *.ini
+recursive-include pyramid_mahasiswa *.mako
+recursive-include pyramid_mahasiswa/alembic/versions *.py
+recursive-include pyramid_mahasiswa/static *
+recursive-include pyramid_mahasiswa/templates *
